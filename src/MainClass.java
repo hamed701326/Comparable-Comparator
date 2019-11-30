@@ -8,6 +8,6 @@ public class MainClass {
         people[2]=new Person("mohammad",24);
         people[3]=new Person("mahmoud",11);
         Arrays.sort(people);
-        System.out.println(people[4].getName()+"is winner with "+people[4].getNumberVote() +"votes");
+        System.out.println(people[3].getName()+" is winner with "+people[3].getNumberVote() +" votes");
     }
 }
