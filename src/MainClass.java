@@ -9,5 +9,12 @@ public class MainClass {
         people[3]=new Person("mahmoud",11);
         Arrays.sort(people);
         System.out.println(people[3].getName()+" is winner with "+people[3].getNumberVote() +" votes");
+        Arrays.sort(people,Person.PersonNameComparator);
+        int c=1;
+        for(Person person:people){
+            System.out.printf("person %d: ",c);
+            System.out.println(person.getName()+"\t"+person.getNumberVote());
+            c++;
+        }
     }
 }
